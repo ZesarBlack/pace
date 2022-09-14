@@ -9,7 +9,6 @@ public class ClienteRegistro implements InterfazCliente{
 	@Override
 	public String RegistroCliente(BeansUsuarios cliente) {
 		String mensaje ="";
-		System.out.print(cliente.getMaterno()+cliente.getPaterno()+cliente.getNombre()+cliente.getEdad());
 		// TODO Auto-generated method stub
 		if(cliente.getMaterno() != null && cliente.getPaterno() != null && cliente.getNombre() != null) {
 			mensaje = "todo correcto";
